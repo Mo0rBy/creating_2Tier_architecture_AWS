@@ -54,7 +54,7 @@ Navigate to the security groups for the VM and add an inbound rule.
 - Leave the default SSH port 22, this is required.
 - Add a custom TCP rule for the port 27017 with the public IP address of the "app" machine. This will allow the "app" machine to access this machine
 
-    ![image](./img/db_machine_SG.PNG)
+    ![image](https://github.com/Mo0rBy/creating_2Tier_architecture_AWS/blob/main/img/db_machine_SG.PNG)
 
     - --> REVIEW AND LAUNCH
 - Choose an existing key, choose the relevant (sre_key.pem) > **Launch the machine**
